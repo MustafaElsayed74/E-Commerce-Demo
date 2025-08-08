@@ -5,7 +5,6 @@ import org.mapstruct.MappingTarget;
 
 import java.util.List;
 
-@Mapper()
 public interface BaseMapper<T, DTO> {
 
     DTO toDto(T entity);
